@@ -3,7 +3,7 @@
   "maintainer": "Alexis Devillard",
   "packages": [
     {
-      "id": "com.aightech.kicad.kicad-p2b",
+      "id": "com.aightech.kicad.kicad-p2b" ,
       "path": "metadata.json"
     }
   ]
