@@ -1,6 +1,11 @@
 {
   "name": "aightech KiCad Plugins",
-  "maintainer": "Alexis Devillard",
+  "author": {
+        "name": "Alexis Devillard",
+        "contact": {
+            "github": "https://github.com/aightech"
+        }
+    },
   "packages": [
     {
       "id": "com.aightech.kicad.kicad-p2b" ,
