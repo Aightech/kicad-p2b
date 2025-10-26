@@ -1,40 +1,31 @@
 {
-  "$schema": "https://gitlab.com/kicad/code/kicad/-/raw/master/kicad/pcm/schemas/pcm.v1.schema.json#/definitions/Package",
-  "name": "P2B — Place From Schematic",
-  "description": "Maps schematic symbol positions to PCB footprints with collision-free closest-fit placement and an optional optimiser.",
-  "description_full": "KiCad 9 action plugin providing a modeless GUI to project schematic positions onto PCB footprints. Includes auto/slider scale, selection filtering, rotation import, collision-free closest-fit placement, and a fast local optimiser to minimise placement error.",
-  "identifier": "com.aightech.kicad.p2b",
-  "type": "plugin",
-  "author": {
-    "name": "Alexis Devillard",
-    "contact": {
-      "github": "https://github.com/aightech"
-    }
-  },
-  "license": "MIT",
-  "resources": {
-    "homepage": "https://github.com/aightech/kicad-p2b",
-    "issues": "https://github.com/aightech/kicad-p2b/issues",
-    "icon": "pcbnew_action_plugins/p2b_place_from_schematic/icon.png"
-  },
-  "versions": [
-    {
-      "version": "0.1.0",
-      "status": "stable",
-      "kicad_version_min": "9.0",
-      "kicad_version_max": "",
-      "download_size": 0,
-      "platforms": [
-        { "os": "all" }
-      ],
-      "install": {
-        "pcbnew_action_plugins": [
-          {
-            "source": "pcbnew_action_plugins/p2b_place_from_schematic",
-            "destination": "p2b_place_from_schematic"
-          }
-        ]
-      }
-    }
-  ]
+    "$schema": "https://go.kicad.org/pcm/schemas/v1",
+    "name": "P2B — Place From Schematic",
+    "description": "Map schematic symbols to PCB footprints with collision-free closest-fit placement + optimiser.",
+    "description_full": "Modeless GUI, selection filter, rotation import, collision avoidance with clearance/grid, and local optimiser. Parses hierarchical schematics. KiCad 9.",
+    "identifier": "com.github.aightech.kicad-p2b",
+    "type": "plugin",
+    "author": {
+        "name": "Alexis Devillard",
+        "contact": {
+            "github": "https://github.com/aightech"
+        }
+    },
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://github.com/aightech/kicad-p2b",
+        "issues": "https://github.com/aightech/kicad-p2b/issues",
+        "icon": "plugins/p2b_place_from_schematic/icon.png"
+    },
+    "versions": [
+        {
+            "version": "0.1.0",
+            "status": "stable",
+            "kicad_version_min": "9.0",
+            "download_url": "https://github.com/Aightech/kicad-p2b/releases/download/v0.1.0/kicad-p2b-0.1.0.zip",
+            "download_size": 87698,
+            "download_sha256": "95ae261939cc6fe8ec1a0b17655fcfd48e871d06b1f388cd3b00cee144f0a941",
+            "install_size": 0
+        }
+    ]
 }
