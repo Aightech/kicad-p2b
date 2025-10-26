@@ -1,15 +1,23 @@
 {
-  "name": "aightech KiCad Plugins",
-  "author": {
-        "name": "Alexis Devillard",
-        "contact": {
-            "github": "https://github.com/aightech"
-        }
-    },
-  "packages": [
-    {
-      "id": "com.aightech.kicad.kicad-p2b" ,
-      "path": "metadata.json"
+  "$schema": "https://gitlab.com/kicad/code/kicad/-/raw/master/kicad/pcm/schemas/pcm.v1.schema.json#/definitions/Repository",
+  "maintainer": {
+    "name": "Alexis Devillard",
+    "contact": {
+      "github": "https://github.com/aightech",
+      "twitter": "@aightech"
     }
-  ]
+  },
+  "name": "Aightech KiCad Plugin Repository",
+  "packages": {
+    "sha256": "",
+    "update_time_utc": "2025-10-26 12:00:00",
+    "update_timestamp": 1761480000,
+    "url": "https://raw.githubusercontent.com/aightech/kicad-p2b/main/metadata.json"
+  },
+  "resources": {
+    "sha256": "",
+    "update_time_utc": "2025-10-26 12:00:00",
+    "update_timestamp": 1761480000,
+    "url": "https://github.com/aightech/kicad-p2b/raw/main/pcbnew_action_plugins/p2b_place_from_schematic/icon.png"
+  }
 }
