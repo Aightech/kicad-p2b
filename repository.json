@@ -15,7 +15,6 @@
     "url": "https://raw.githubusercontent.com/aightech/kicad-p2b/main/metadata.json"
   },
   "resources": {
-    "sha256": "",
     "update_time_utc": "2025-10-26 12:00:00",
     "update_timestamp": 1761480000,
     "url": "https://github.com/aightech/kicad-p2b/raw/main/pcbnew_action_plugins/p2b_place_from_schematic/icon.png"
