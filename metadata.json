@@ -1,15 +1,21 @@
 {
+  "$schema": "https://gitlab.com/kicad/code/kicad/-/raw/master/kicad/pcm/schemas/pcm.v1.schema.json#/definitions/Package",
   "name": "P2B — Place From Schematic",
-  "description": "Maps schematic symbol positions to PCB footprints with collision-free closest-fit placement and a local optimiser.",
-  "description_full": "KiCad 9 action plugin. Modeless GUI; auto/slider scale; selection-only mode; optional rotation; collision avoidance with clearance and grid step; optimiser tries small position and rotation deltas to reduce target distance. Parses hierarchical schematics.",
+  "description": "Maps schematic symbol positions to PCB footprints with collision-free closest-fit placement and an optional optimiser.",
+  "description_full": "KiCad 9 action plugin providing a modeless GUI to project schematic positions onto PCB footprints. Includes auto/slider scale, selection filtering, rotation import, collision-free closest-fit placement, and a fast local optimiser to minimise placement error.",
   "identifier": "com.aightech.kicad.p2b",
   "type": "plugin",
-  "author": "Alexis Devillard",
+  "author": {
+    "name": "Alexis Devillard",
+    "contact": {
+      "github": "https://github.com/aightech"
+    }
+  },
   "license": "MIT",
   "resources": {
     "homepage": "https://github.com/aightech/kicad-p2b",
     "issues": "https://github.com/aightech/kicad-p2b/issues",
-    "icon": "pcbnew_action_plugins/p2b/icon.png"
+    "icon": "pcbnew_action_plugins/p2b_place_from_schematic/icon.png"
   },
   "versions": [
     {
@@ -24,12 +30,11 @@
       "install": {
         "pcbnew_action_plugins": [
           {
-            "source": "pcbnew_action_plugins/p2b",
-            "destination": "p2b"
+            "source": "pcbnew_action_plugins/p2b_place_from_schematic",
+            "destination": "p2b_place_from_schematic"
           }
         ]
       }
     }
   ]
 }
-
