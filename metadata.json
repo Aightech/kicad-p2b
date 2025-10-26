@@ -4,7 +4,7 @@
   "description_full": "KiCad 9 action plugin. Modeless GUI; auto/slider scale; selection-only mode; optional rotation; collision avoidance with clearance and grid step; optimiser tries small position and rotation deltas to reduce target distance. Parses hierarchical schematics.",
   "identifier": "com.aightech.kicad.p2b",
   "type": "plugin",
-  "author": "Your Name",
+  "author": "Alexis Devillard",
   "license": "MIT",
   "resources": {
     "homepage": "https://github.com/aightech/kicad-p2b",
