@@ -1,0 +1,11 @@
+// repository.json  (PCM repository index – host this at the root of your repo or site)
+{
+  "name": "aightech KiCad Plugins",
+  "maintainer": "Alexis Devillard",
+  "packages": [
+    {
+      "id": "com.aightech.kicad.p2b",
+      "path": "metadata.json"
+    }
+  ]
+}
